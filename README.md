@@ -1,4 +1,4 @@
-This repository provides the baseline systems documented in the paper ``A Dataset for Pharmacovigilance in German, French, and Japanese: Annotating Adverse Drug Reactions across Languages"
+This repository provides the baseline systems for the KEEPHA-ADR datset.
 
 # Getting started
 
@@ -9,7 +9,7 @@ pip install -r ./requirements.txt
 
 # Example usage
 
-FTo reproduce the results for the three Information Extraction tasks, you need a run file and a config file. 
+To reproduce the results for the three Information Extraction tasks, you need a run file and a config file. 
 You can find config files in the folder `./configs` for respective tasks.
 
 ## Name Entity Recognition (NER)
