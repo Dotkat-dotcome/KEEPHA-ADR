@@ -1,0 +1,14 @@
+{
+  "batch_size": 4,
+  "data_url": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/gold/combined_DE_FR_JA/",
+  "debug": false,
+  "label2id_file": "src/utils/label2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "model_name": "/netscratch/raithel/projects/m-ADR/outputs/ja_ner_mono/checkpoint_xlm-roberta-large_17_10_23_18_07_40",
+  "num_sentences": 1,
+  "out_dir": "/netscratch/raithel/projects/m-ADR/outputs/ja_ner_mono/checkpoint_xlm-roberta-large_17_10_23_18_07_40/predictions",
+  "path_to_preprocessed_data": "",
+  "seed": 42,
+  "use_wandb": false
+}

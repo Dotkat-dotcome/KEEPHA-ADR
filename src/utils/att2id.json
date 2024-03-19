@@ -1,0 +1,16 @@
+{
+  "increase":0,
+  "decrease":1,
+  "stopped":2,
+  "started":3,
+  "unique_dose":4,
+  "positive":5,
+  "negative":6,
+  "neutral":7,
+  "frequency":8,
+  "duration":9,
+  "date":10,
+  "point":11,
+  "negated":12
+}
+

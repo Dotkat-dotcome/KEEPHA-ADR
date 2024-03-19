@@ -1,0 +1,13 @@
+{
+  "data_url": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/combined_DE_JA_FR",
+  "debug": false,
+  "epochs": 100,
+  "label2id_file": "src/utils/label2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "out_dir": "/netscratch/raithel/projects/m-ADR/outputs/de_ja_fr_ner",
+  "path_to_preprocessed_data": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/processed/de_ja_fr",
+  "patience": 3,
+  "save_best_model": true,
+  "use_wandb": true
+}

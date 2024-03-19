@@ -1,0 +1,15 @@
+{
+  "data_url": "/mnt/beegfs/projects/keepha/m-ADR/data/gold-ADR/Japanese/ja_all",
+  "debug": false,
+  "batch_size": 16,
+  "max_length": 512,
+  "rel2id_file": "src/utils/rel2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "model_name": "/mnt/beegfs/projects/keepha/m-ADR/outputs/re/ja/checkpoint_xlm-roberta-large_07_10_23_07_59_19",
+  "out_dir": "/mnt/beegfs/home/huisyuan/keepha/m-ADR/results/re/mono-lingual-xlmr/ja/checkpoint_xlm-roberta-large_07_10_23_07_59_19",
+  "num_sentences": 26,
+  "path_to_preprocessed_data": "/mnt/beegfs/projects/keepha/m-ADR/data/re_test/ja_multi",
+  "seed": 42,
+  "use_wandb": false
+}

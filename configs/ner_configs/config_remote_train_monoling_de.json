@@ -1,0 +1,14 @@
+{
+  "data_url": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/German/lifeline",
+  "debug": false,
+  "epochs": 50,
+  "label2id_file": "src/utils/label2id.json",
+  "language": "de",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "out_dir": "/netscratch/raithel/projects/m-ADR/outputs/de_ner",
+  "path_to_preprocessed_data": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/processed/de",
+  "patience": 4,
+  "save_best_model": true,
+  "use_wandb": true
+}

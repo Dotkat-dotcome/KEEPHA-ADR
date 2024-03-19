@@ -1,0 +1,15 @@
+{
+  "data_url": "/mnt/beegfs/projects/keepha/m-ADR/data/gold-ADR/German/lifeline",
+  "debug": false,
+  "batch_size": 16,
+  "max_length": 512,
+  "att2id_file": "src/utils/att2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "model_name": "/mnt/beegfs/projects/keepha/m-ADR/outputs/att/mix_all/xlm-roberta-large/checkpoint_xlm-roberta-large_11_10_23_13_41_32",
+  "out_dir": "/mnt/beegfs/home/huisyuan/keepha/m-ADR/results/att/multi-lingual/de/checkpoint_xlm-roberta-large_11_10_23_13_41_32",
+  "num_sentences": 26,
+  "path_to_preprocessed_data": "/mnt/beegfs/projects/keepha/m-ADR/data/att_test/de_multi",
+  "seed": 42,
+  "use_wandb": false
+}

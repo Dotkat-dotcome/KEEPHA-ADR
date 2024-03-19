@@ -1,0 +1,20 @@
+{
+  "data_url": "/mnt/beegfs/projects/keepha/m-ADR/data/gold-ADR/mixed/DE_JA",
+  "debug": false,
+  "epochs": 60,
+  "batch_size": 8,
+  "learning_rate": 2e-5,
+  "weight_decay": 0.001,
+  "max_length": 512,
+  "rel2id_file": "src/utils/rel2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "model_name": "xlm-roberta-large",
+  "out_dir": "/mnt/beegfs/home/huisyuan/keepha/m-ADR/outputs/re_reruns/mix_two", 
+  "num_sentences": 26,
+  "path_to_preprocessed_data": "/mnt/beegfs/projects/keepha/m-ADR/data/re_train/mix_two",
+  "patience": 3,
+  "seed": 42,
+  "save_best_model": true,
+  "use_wandb": true
+}

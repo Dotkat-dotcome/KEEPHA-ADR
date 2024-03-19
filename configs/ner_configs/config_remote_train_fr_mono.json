@@ -1,0 +1,13 @@
+{
+  "data_url": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/French/lifeline",
+  "debug": false,
+  "epochs": 100,
+  "label2id_file": "src/utils/label2id.json",
+  "language2id_file": "src/utils/language2id.json",
+  "language_dict_file": "src/utils/language_dict.json",
+  "out_dir": "/netscratch/raithel/projects/m-ADR/outputs/fr_ner_mono",
+  "path_to_preprocessed_data": "/netscratch/raithel/projects/m-ADR/data/processed-ADR/processed/fr",
+  "patience": 10,
+  "save_best_model": true,
+  "use_wandb": true
+}

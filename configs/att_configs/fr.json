@@ -1,0 +1,20 @@
+{
+    "data_url": "/mnt/beegfs/projects/keepha/m-ADR/data/gold-ADR/French/lifeline",
+    "debug": false,
+    "epochs": 60,
+    "batch_size": 4,
+    "learning_rate": 0.00001,
+    "weight_decay": 0.001,
+    "max_length": 512,
+    "att2id_file": "src/utils/att2id.json",
+    "language2id_file": "src/utils/language2id.json",
+    "language_dict_file": "src/utils/language_dict.json",
+    "model_name": "xlm-roberta-large",
+    "out_dir": "/mnt/beegfs/home/huisyuan/keepha/m-ADR/tmp_att/fr", 
+    "num_sentences": 26,
+    "path_to_preprocessed_data": "/mnt/beegfs/projects/keepha/m-ADR/data/att_train/fr_multi",
+    "patience": 3,
+    "seed": 42,
+    "save_best_model": false,
+    "use_wandb": false
+  }
